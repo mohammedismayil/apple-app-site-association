@@ -4,9 +4,9 @@ const router = require('express').Router();
 /*
 	localhost:2345/ is same as writing localhost:2345. The browser automatically routerends a "/" if there isn't any
 */
-// router.get('/', function(req, res){
-// 	res.send('The GET Request on "/" has been handled by the server.');
-// })
+router.get('/', function(req, res){
+	res.send('The GET Request on "/" has been handled by the server.');
+})
 
 
 // router.use('/api', apiRouter);

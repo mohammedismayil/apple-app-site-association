@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
   const msg = 'Hello Node!\n'
   res.end(msg);
 
-  // res.set('Content-Type', 'application/json');
+  res.set('Content-Type', 'application/json');
 });
 
 // server.listen(port, () => {
@@ -33,7 +33,7 @@ app.use('/', basicRouter);
 
 
 // ...
-app.use('/wiki', wiki);
+// app.use('/wiki', wiki);
 app.get('/apple-app-site-association', function(req, res, next) {
   console.log("im called")
   res.set('Content-Type', 'application/json');
