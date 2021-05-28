@@ -34,7 +34,7 @@ app.listen(port, function(){
 
 // ...
 // app.use('/wiki', wiki);
-app.get('/apple-app-site-association', function(req, res, next) {
+app.get('/.well-known/apple-app-site-association', function(req, res, next) {
   console.log("im called")
   res.set('Content-Type', 'application/json');
   res.status(200).send(aasa);
