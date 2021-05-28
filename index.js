@@ -39,3 +39,6 @@ app.get('/apple-app-site-association', function(req, res, next) {
   res.set('Content-Type', 'application/json');
   res.status(200).send(aasa);
 });
+app.get('/', function(req, res){
+	res.send('The GET Request on "/" has been handled by the server.');
+})
