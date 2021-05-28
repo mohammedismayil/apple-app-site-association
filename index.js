@@ -1,4 +1,5 @@
 const http = require('http');
+var fs = require('fs');
 const port = process.env.PORT || 3000;
 var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
 const server = http.createServer((req, res) => {
