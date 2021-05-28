@@ -40,7 +40,8 @@ app.get('/.well-known/apple-app-site-association', function(req, res, next) {
   res.status(200).send(aasa);
 });
 app.get('/', function(req, res){
-	res.send('The GET Request on "/" has been handled by the server.');
+	res.send('The GET Request on "/" has been handled by the server. pipe line added from github');
+
 })
 app.get('/test', function(req, res){
 	res.send('The GET Request on "/" has been handled by the server.');
