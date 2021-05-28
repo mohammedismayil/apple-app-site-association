@@ -6,7 +6,7 @@ const app = express();
 const bodyParser = require('body-parser');
 
 const port = process.env.PORT || 3000;
-var aasa = fs.readFileSync(__dirname + '/apple-app-site-association');
+var aasa = fs.readFileSync(__dirname + '/.well-known/apple-app-site-association');
 
 var wiki = require('./wiki.js');
 app.use(bodyParser.urlencoded({extended: true}));

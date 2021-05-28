@@ -24,14 +24,14 @@ router.get('/basic3', function(req, res){
 })
 
 
-router.post('/', function(req, res){
+// router.post('/', function(req, res){
 
-	console.log(req.body);
-	var username = req.body.username;
-	var password = req.body.password;
+// 	console.log(req.body);
+// 	var username = req.body.username;
+// 	var password = req.body.password;
 
-	res.send("The username is: " + username + " and the password is: " + password);
+// 	res.send("The username is: " + username + " and the password is: " + password);
 
-})
+// })
 
 module.exports = router;
