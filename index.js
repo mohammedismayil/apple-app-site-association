@@ -42,3 +42,6 @@ app.get('/.well-known/apple-app-site-association', function(req, res, next) {
 app.get('/', function(req, res){
 	res.send('The GET Request on "/" has been handled by the server.');
 })
+app.get('/test', function(req, res){
+	res.send('The GET Request on "/" has been handled by the server.');
+})
