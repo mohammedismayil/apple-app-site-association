@@ -40,7 +40,7 @@ app.get('/.well-known/apple-app-site-association', function(req, res, next) {
   res.status(200).send(aasa);
 });
 app.get('/', function(req, res){
-	res.send('The GET Request on "/" has been handled by the server. pipe line added from github');
+	res.send('Simple site hosted in heroku for testing the universal links in ios.Open /.well-known/apple-app-site-association route');
 
 })
 app.get('/test', function(req, res){
