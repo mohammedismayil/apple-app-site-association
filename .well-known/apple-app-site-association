@@ -1,11 +1,15 @@
 {
   "applinks": {
-    "apps": [],
+    "apps": [
+      
+    ],
     "details": [
-    {
-      "appID": "C892UTCP68.com.my.karibemarketplace",
-      "paths": ["*"]
-    }
+      {
+        "appID": "W89HL6566S.com.trioangle.fire",
+        "paths": [
+          "*"
+        ]
+      }
     ]
   }
 }
