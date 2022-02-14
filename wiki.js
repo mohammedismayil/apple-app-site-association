@@ -15,4 +15,6 @@ router.get('/about', function (req, res) {
   console.log("hello world")
 })
 
+// https://apple-app-site-association.ismayildev.repl.co/.well-known/apple-app-site-association
+
 module.exports = router;
